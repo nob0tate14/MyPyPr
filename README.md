@@ -9,6 +9,8 @@ nostalgic banner program.
  (see sample_bannepy.py)
 
 ## Description
+**banne.py**  
+banner program  
 
 *command line parameter*
 
@@ -34,8 +36,16 @@ option=yen,symbol
  * custom font  
 pybanner.set_config("font", FONT_OBJECT)
  * font width  
-pybanner.set_config("font.width", int)
+pybanner.set_config("font.width", int)  
 
+---  
+**sample_bannepy.py**  
+usage sample  
+---  
+**aa2h.py**  
+dot art to hex  
+ * example  
+python3 aa2h.py ../dot_sample.txt  
 
 ## Requirement
 
