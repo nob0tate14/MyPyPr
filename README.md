@@ -1,5 +1,4 @@
-bannepy
-====
+# bannepy
 
 nostalgic banner program.
 
@@ -41,6 +40,7 @@ pybanner.set_config("font.width", int)
 ---  
 **sample_bannepy.py**  
 usage sample  
+
 ---  
 **aa2h.py**  
 dot art to hex  
@@ -82,10 +82,8 @@ input your text.
 ## Contribution
 
 ## Licence
-
 there is licensed under the Apache License, Version2.0
 (see ./LICENSE.txt)
 
 ## Author
-
 Nobuo Tateishi(https://github.com/nob0tate14)
