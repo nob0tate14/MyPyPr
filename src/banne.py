@@ -292,7 +292,7 @@ class PyBanner:
                 mtrx = []
                 for i in range(font_height):
                     mtrx.append(htob(font[i], font_width))
-                for i in range(font_width):
+                for dummy in range(font_width):
                     for ii in range(font_height):
                         if mtrx[ii][0] == self.param["pixel.dark"]:
                             break
@@ -302,7 +302,7 @@ class PyBanner:
                         continue
                     break
 
-                for i in range(font_width)[::-1]:
+                for dummy in range(font_width)[::-1]:
                     for ii in range(font_height):
                         if mtrx[ii][-1:] == self.param["pixel.dark"]:
                             break

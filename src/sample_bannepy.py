@@ -12,7 +12,7 @@ from banne import AFD
 if __name__ == '__main__':
 
     # simple sample
-    os.system('python3.6 banne.py "Hello banne.py!" -s=kerning')
+    os.system('python3 banne.py "Hello banne.py!" -s=kerning')
 
     # class sample
     pybanner = PyBanner()
